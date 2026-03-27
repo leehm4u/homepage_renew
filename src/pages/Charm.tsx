@@ -26,9 +26,9 @@ const charms = [
 
 export default function Charm() {
   return (
-    <div className="pt-24 min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="py-24 bg-brand-dark text-white relative overflow-hidden">
+      <section className="pt-32 pb-24 bg-brand-dark text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1920"

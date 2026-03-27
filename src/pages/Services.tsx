@@ -18,9 +18,9 @@ import { Link } from 'react-router-dom';
 
 export default function Services() {
   return (
-    <div className="pt-24 min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="relative py-32 bg-brand-dark text-white overflow-hidden">
+      <section className="relative pt-40 pb-32 bg-brand-dark text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1920"

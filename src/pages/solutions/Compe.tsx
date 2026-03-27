@@ -56,20 +56,9 @@ const features = [
 
 export default function Compe() {
   return (
-    <div className="pt-24 min-h-screen bg-white">
-      {/* Breadcrumb */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <Link
-          to="/solutions"
-          className="flex items-center text-sm text-gray-500 hover:text-brand-blue transition-colors"
-        >
-          <ArrowLeft className="w-4 h-4 mr-1" />
-          自社サービス一覧に戻る
-        </Link>
-      </div>
-
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-24 bg-brand-dark text-white relative overflow-hidden">
+      <section className="pt-32 pb-24 bg-brand-dark text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&q=80&w=1920"
@@ -81,6 +70,13 @@ export default function Compe() {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <Link
+            to="/solutions"
+            className="inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors mb-8"
+          >
+            <ArrowLeft className="w-4 h-4 mr-1" />
+            自社サービス一覧に戻る
+          </Link>
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}

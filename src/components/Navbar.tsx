@@ -70,7 +70,7 @@ export default function Navbar() {
       <div className={`max-w-7xl mx-auto transition-all duration-500 rounded-full px-6 ${
         isScrolled 
           ? 'bg-white/80 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.08)] border border-white/20' 
-          : 'bg-transparent'
+          : 'bg-black/5 backdrop-blur-[2px]'
       }`}>
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-3 group">
@@ -101,14 +101,14 @@ export default function Navbar() {
                   {item.isScroll ? (
                     <button
                       onClick={() => handleNavClick(item)}
-                      className={`text-sm font-medium hover:text-brand-blue transition-colors ${isScrolled ? 'text-gray-700' : 'text-white/90'}`}
+                      className={`text-sm font-medium hover:text-brand-blue transition-colors ${isScrolled ? 'text-gray-700' : 'text-white'}`}
                     >
                       {item.label}
                     </button>
                   ) : (
                     <Link
                       to={item.href}
-                      className={`text-sm font-medium hover:text-brand-blue transition-colors ${isScrolled ? 'text-gray-700' : 'text-white/90'}`}
+                      className={`text-sm font-medium hover:text-brand-blue transition-colors ${isScrolled ? 'text-gray-700' : 'text-white'}`}
                     >
                       {item.label}
                     </Link>

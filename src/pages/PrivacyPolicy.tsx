@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 export default function PrivacyPolicy() {
   return (
-    <div className="pt-24 min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="py-20 bg-brand-dark text-white relative overflow-hidden">
+      <section className="pt-32 pb-20 bg-brand-dark text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1920"

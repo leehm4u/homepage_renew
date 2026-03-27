@@ -23,9 +23,9 @@ export default function NewsDetail() {
   const prevNews = newsItems.find((item) => item.id === news.id - 1);
 
   return (
-    <div className="pt-24 min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="py-16 bg-brand-dark text-white relative overflow-hidden">
+      <section className="pt-32 pb-16 bg-brand-dark text-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
